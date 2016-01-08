@@ -1,0 +1,28 @@
+{
+    "name": "kevoree-comp-headsdigitalwritecomp",
+    "version": "0.1.0",
+    "main": "./lib/HeadsDigitalWriteComp.js",
+    "kevoree": {
+        "package": "eu.heads"
+    },
+    "scripts": {
+        "prepublish": "grunt",
+        "postpublish": "grunt publish"
+    },
+    "keywords": [
+        "kevoree",
+        "library",
+        "comp"
+    ],
+    "dependencies": {
+        "kevoree-entities": "^8.0.0"
+    },
+    "devDependencies": {
+        "grunt": "0.4.5",
+        "grunt-kevoree": "^5.8.3",
+        "grunt-kevoree-genmodel" : "^2.0.0",
+        "grunt-kevoree-registry" : "^2.0.0",
+        "mraa" : "*"
+
+    }
+}

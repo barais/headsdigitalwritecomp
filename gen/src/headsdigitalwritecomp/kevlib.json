@@ -1,0 +1,93 @@
+{
+    "class": "root:org.kevoree.ContainerRoot@0.079948294209316371452284375160",
+    "generated_KMF_ID": "0.079948294209316371452284375160",
+    "nodes": [],
+    "repositories": [],
+    "hubs": [],
+    "mBindings": [],
+    "groups": [],
+    "packages": [
+        {
+            "class": "org.kevoree.Package@eu",
+            "name": "eu",
+            "packages": [
+                {
+                    "class": "org.kevoree.Package@heads",
+                    "name": "heads",
+                    "packages": [],
+                    "typeDefinitions": [
+                        {
+                            "class": "org.kevoree.ComponentType@name=HeadsDigitalWriteComp,version=0.1.0",
+                            "abstract": "false",
+                            "name": "HeadsDigitalWriteComp",
+                            "version": "0.1.0",
+                            "deployUnits": [
+                                "/packages[eu]/packages[heads]/deployUnits[hashcode=,name=kevoree-comp-headsdigitalwritecomp,version=0.1.0]"
+                            ],
+                            "superTypes": [],
+                            "dictionaryType": [
+                                {
+                                    "class": "org.kevoree.DictionaryType@0.459562595933675771452284375204",
+                                    "generated_KMF_ID": "0.459562595933675771452284375204",
+                                    "attributes": [
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@pin",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "pin",
+                                            "state": "false",
+                                            "datatype": "STRING",
+                                            "defaultValue": "0",
+                                            "genericTypes": []
+                                        },
+                                        {
+                                            "class": "org.kevoree.DictionaryAttribute@test",
+                                            "fragmentDependant": "false",
+                                            "optional": "true",
+                                            "name": "test",
+                                            "state": "false",
+                                            "datatype": "BOOLEAN",
+                                            "defaultValue": "",
+                                            "genericTypes": []
+                                        }
+                                    ]
+                                }
+                            ],
+                            "metaData": [],
+                            "required": [],
+                            "provided": [
+                                {
+                                    "class": "org.kevoree.PortTypeRef@getValue",
+                                    "noDependency": "true",
+                                    "optional": "true",
+                                    "name": "getValue",
+                                    "ref": [],
+                                    "mappings": []
+                                }
+                            ]
+                        }
+                    ],
+                    "deployUnits": [
+                        {
+                            "class": "org.kevoree.DeployUnit@hashcode=,name=kevoree-comp-headsdigitalwritecomp,version=0.1.0",
+                            "name": "kevoree-comp-headsdigitalwritecomp",
+                            "hashcode": "",
+                            "url": "",
+                            "version": "0.1.0",
+                            "requiredLibs": [],
+                            "filters": [
+                                {
+                                    "class": "org.kevoree.Value@platform",
+                                    "name": "platform",
+                                    "value": "javascript"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ],
+            "typeDefinitions": [],
+            "deployUnits": []
+        }
+    ]
+}
