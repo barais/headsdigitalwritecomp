@@ -1,13 +1,9 @@
-# kevoree-js.d.ts
-First try at providing **TypeScript** declaration files for **kevoree-js**
+# headsdigitalwritecomp
 
-### Available declarations
-- kevoree-entities (partially)
-- kevoree-commons (partially)
+Kevoree component todrive Digital Output pin. 
 
-### Examples
-You can find some TypeScript usage examples in the `examples/` folder.
-In order to generate the JavaScript from it, you must first install the project dependencies:
+
+### Build
 
 ```sh
 npm install
@@ -19,9 +15,8 @@ grunt
 ```
 The generated JavaScript sources are located in the `gen/` folder
 
-### Test the examples
-In order to tests the generated javascript, you must change your directory to `gen/src/mychan`, `gen/src/mycomp`
-or `gen/src/mygroup` and run:
+### Test the example
+In order to tests the generated javascript, you must change your directory to `gen/src/headsdigitalwritecomp`, and run:
 
 Only the first time:
 ```sh
@@ -32,4 +27,4 @@ Then:
 ```sh
 grunt kevoree
 ```
-# headsdigitalwritecomp
+
